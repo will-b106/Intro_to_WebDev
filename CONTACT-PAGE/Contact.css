@@ -1,0 +1,37 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+#contact-box {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    cursor: move;
+    user-select: none;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+#contact-box:hover {
+    transform: rotate(10deg);
+}
+
+#email-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#email-link:hover {
+    color: #ffd700; /* Change color on hover */
+}

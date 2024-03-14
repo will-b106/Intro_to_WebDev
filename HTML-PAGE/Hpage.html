@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Complex HTML Page</title>
+    <link rel="stylesheet" type="text/css" href="test.css"
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to HTML!</h1>
+    </header>
+
+  <form action="index.html">
+    <button type="submit">HOME</button>
+  </form>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <p>This page is built only using HTML. There is no styling or JS used for this webpage. As you know, HTML is needed to even start making websites as it provides the framework to show text/headers/images and many other elements.</p>
+
+      <details>
+          <summary>Details 1</summary>
+          This text is hidden unless you click the arrow.
+      </details>
+
+      <details open>
+          <summary>Details 2</summary>
+          Other text that is shown. This one defaults to open!
+      </details>
+      <br>
+      <label for="car-make">Choose a car make:</label>
+      <input list="car-makes" id="car-make" name="car-makes" placeholder="Select make.." />
+  
+      <datalist id="car-makes" >
+          <option value="BMW">
+          <option value="Tesla">
+          <option value="Toyota">
+          <option value="Volkswaggon">
+          <option value="Mazda">
+      </datalist>
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <p>On this page you'll see some cool HTML elements that aren't really know about or used often. For example, the progress bar below is rarely used but is a cool HTML element you can use in your websites.</p>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+      <label for="progBar">Progress:</label>
+      <progress id="project" max="100" value="70"> 70% </progress>
+
+
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <p>These elements are needed if you want to make a login page for users. It creates an element of authentication that you can change so that users can only access certain things if they know a specific password. Although, if you want to make a working login page that has user interaction, you will need JavaScript and maybe a small database to store user info.</p>
+        <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+        </div>
+        <div>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password">
+        </div>
+        <button type="submit">Submit</button>
+    </section>
+
+    <section>
+        <h2>
+        Basic Structure of HTML Page:
+        </h2>
+        &lt;!DOCTYPE html&gt;
+        <br>
+        &lt;html&gt;
+        <br>
+        &emsp;&lt;head&gt;
+        <br>
+        &emsp;&emsp;&lt;title&gt;Title Here&lt;/title&gt;
+        <br>
+        &emsp;&lt;/head&gt;
+        <br>
+        &emsp;&lt;body&gt;
+        <br>
+        &emsp;&emsp;&lt;h2&gt;HTML Structure&lt;/h2&gt;
+        <br>
+        &emsp;&emsp;&lt;p&gt;Tell something about the Web page here.&lt;/p&gt;
+        <br>
+      &emsp;&emsp;&lt;nav&gt;
+      <br>
+      &emsp;&emsp;&emsp;&lt;ul&gt;
+      <br>
+      &emsp;&emsp;&emsp;&emsp;&lt;li&gt;&lt;a href="#section1"&gt;Section 1&lt;/a&gt;&lt;/li&gt;
+      <br>
+      &emsp;&emsp;&emsp;&emsp;&lt;li&gt;&lt;a href="#section2"&gt;Section 2&lt;/a&gt;&lt;/li&gt;
+      <br>
+      &emsp;&emsp;&emsp;&emsp;&lt;li&gt;&lt;a href="#section3"&gt;Section 3&lt;/a&gt;&lt;/li&gt;
+      <br>
+      &emsp;&emsp;&emsp;&lt;/ul&gt;
+      <br>
+      &emsp;&emsp;&lt;/nav&gt;
+      <br>
+
+      &emsp;&emsp;&lt;section id="section1"&gt;
+      <br>
+      &emsp;&emsp;&emsp;&lt;h2&gt;Section 1&lt;/h2&gt;
+      <br>
+      &emsp;&emsp;&emsp;&emsp;&lt;p&gt;This is the content of section 1.&lt;/p&gt;
+      <br>
+      &emsp;&emsp;&lt;/section&gt;<br>
+        &emsp;&emsp;&emsp;&lt;footer&gt;
+        <br>
+        &emsp;&emsp;&emsp;&emsp;Copyright &copy; 2023 Web page
+        <br>
+        &emsp;&emsp;&emsp;&lt;/footer&gt;
+        <br>
+        &emsp;&lt;/body&gt;
+        <br>
+        &lt;/html&gt;
+    </section>
+
+    <section>
+      <p>This is how your code should look for a webpage. Adding different HTML elements will make your page stand out and interest the user more. If you indent your code properly it will be easier to read and debug if you come across any errors. Also, indenting can help to section your code off which will make testing and again, debugging, much faster.</p>
+    </section>
+
+    <footer>
+        <p>Copyright &copy; 2023 WB Website</p>
+    </footer>
+
+</body>
+
+</html>

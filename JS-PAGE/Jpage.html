@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>JavaScript page</title>
+      <link rel="stylesheet" type="text/css" href="Jstyle.css">
+      <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="Jscript.js"></script>
+  </head>
+  
+  <body>
+    <header id="main-header">
+      <div class="container">
+        <h1>Welcome to JavaScript</h1>
+      </div> 
+    </header>
+    
+    <div id="navlist">
+      <div class="container">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Hpage.html">HTML</a></li>
+          <li><a href="nCpage.html">CSS</a></li>
+        </ul>
+
+        
+      </div>
+      
+      <div class="fullscreen-search"> 
+        <button class="openBtn" onclick="openSearch()"> 
+              Search...
+        </button>
+        <div id="myOverlay" class="search-overlay">
+            <span class="closebtn" onclick="closeSearch()"                      title="Close Overlay"> 
+              &times; 
+            </span> 
+            <div class="overlay-content"> 
+                <form action="#"> 
+                  <input type="search" placeholder="Search.."                          id="search-bar" /> 
+            <button><i id="search-button" class="fa fa-search"></i></button>
+                </form>
+            </div>
+        </div> 
+      </div>
+    </div>
+      
+    <div id="main-text">
+      <p>As you've heard before, JavaScript is used in web dev to add interaction for the user. For example, the search bar on this page uses JavaScript. When you click on the <b>Search bar</b>, a function is called which makes the search bar take over the full screen. Then another function is called when you click the <b>Back</b> button to set the search bar display to none (otherwise stopping the first function). </p>
+
+
+    <p>You can use the JavaScript course I have attached in the classroom to learn the JavaScript basics you will need for Web Dev. If you are already quite confident with JS then you can practice Js exam questions via the link on this page. Another good way to learn or practice JavaScript is to download an app called Mimo. You can download it on your phone and choose the JavaScript course and then either start right at the beginning or review certain aspects of JS you're not comfortable with.</p>
+    </div>
+
+    <div id="centered-box">
+      <form action="https://leetcode.com/problemset/">
+        <button id="links" type="submit">JS Questions</button>
+      </form>
+    </div>
+
+    <div id="centered-box">
+      <form action="https://mimo.org/">
+        <button id="links" type="submit">Mimo App</button>
+      </form>
+    </div>
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2023 WB Website</p>
+    </footer>
+  </body>
+</html>
