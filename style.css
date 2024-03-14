@@ -118,7 +118,7 @@ body{
   }
   
   #showcase{
-    background-image: url(showcase.jpg);
+    background-image: url(../page-images/showcase.jpg);
     background-position: center right;
     background-size: 100% 100%;
     min-height:300px;
